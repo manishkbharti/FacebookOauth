@@ -1,0 +1,16 @@
+<plugin name='spring-security-oauth' version='2.0.2' grailsVersion='2.0 &gt; *'>
+  <author>Mihai Cazacu, Enrico Comiti, Alexey Zhokhov</author>
+  <authorEmail>cazacugmihai@gmail.com</authorEmail>
+  <title>Spring Security OAuth plugin</title>
+  <description>Adds OAuth-based authentication to the
+[Spring Security plugin|http://grails.org/plugin/spring-security-core] using the
+[OAuth plugin|http://grails.org/plugin/oauth-scribe]. This plugin provides an OAuth realm that can easily be integrated
+into existing applications and a host of utility functions to make things like "log in with Twitter" almost trivial.</description>
+  <documentation>http://grails.org/plugin/spring-security-oauth</documentation>
+  <type>SpringSecurityOauthGrailsPlugin</type>
+  <resources>
+    <resource>DefaultSpringSecurityOAuthConfig</resource>
+    <resource>SpringSecurityOauthUrlMappings</resource>
+    <resource>grails.plugin.springsecurity.oauth.SpringSecurityOAuthTagLib</resource>
+  </resources>
+</plugin>
